@@ -19,3 +19,4 @@
 - 請勿將 API 金鑰放進 GitHub、HTML 或 JavaScript 前端。
 - AI 只讀取截圖，不含即時行情，不保證預測正確。截圖會傳送到 OpenAI API，避免上傳帳號、餘額等敏感資訊。
 - 本包尚未在你的 Cloudflare 帳號實際部署或用付費 API 進行端到端測試。
+Deployment refresh
