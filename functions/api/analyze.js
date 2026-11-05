@@ -19,4 +19,4 @@ export async function onRequestPost({request,env}){
   return reply({analysis:a,analyzed_at:new Date().toISOString()});
  }catch(e){return reply({error:e.name==='AbortError'?'AI 分析逾時，請重試':'網路或 AI 服務連線失敗'},502)}finally{clearTimeout(timeout)}
 }
-export function onRequestGet(){return reply({error:'請使用 POST 上傳圖片'},405
+export function onRequestGet(){return reply({error:'請使用 POST 上傳圖片'},405)}
